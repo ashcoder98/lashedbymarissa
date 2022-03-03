@@ -3,12 +3,17 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  
 }
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 10%;
+  border-radius: 17px;
+background: #ffffff;
+box-shadow:  5px 5px 11px #bababa,
+             -5px -5px 11px #ffffff;
 }
 header ul {
   list-style: none;
@@ -24,13 +29,21 @@ header li {
   margin: 0 10px;
 }
 .cta {
-  background-color: black;
-  color: white;
-  font-weight: bolder;
-  border-radius: 7px;
-  padding: 5px;
-  transition: all .3s ease 0s;
+  border: none;
+  border-radius: 5px;
 }
-.cta:hover {
-  background-color: rgb(77, 77, 77);
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.bio {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow:  5px 5px 11px #bababa,
+               -5px -5px 11px #ffffff;
+  width: 75%;
 }

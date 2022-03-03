@@ -13,9 +13,9 @@ function Nav() {
                 <li>about me</li>
               </ul>
           </nav>
-                <span className='cta'>
+                <button className='cta'>
                     <li>book now</li>
-                </span> 
+                </button> 
       </header>
     </div>
   );
